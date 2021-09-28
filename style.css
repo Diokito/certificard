@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten&family=Nunito&display=swap");
+
+body {
+  background: linear-gradient(136.85deg, #001100 27.26%, green 96.03%);
+  font-family: "Gluten", cursive;
+}
+
+.container {
+  background: #ccffcc;
+  color: #001100;
+  margin: 44px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #112211;
+  padding: 34px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 10px 30px #112211;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 800;
+  font-size: 46px;
+}
+
+.titulo h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.tema button {
+  align-self: flex-end;
+  background: linear-gradient(136.85deg, #002200 27.26%, green 96.03%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #00dd00;
+  color: #00dd00;
+  font-family: "Gluten", cursive;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.projetos {
+  background: linear-gradient(136.85deg, #001100 27.26%, green 96.03%);
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #00ff00;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: orangered;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 200;
+  font-size: 15px;
+  color: #00dd00;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-left: -20px;
+  margin-right: 30px;
+}
+
+.projetos-item a {
+  color: #00dd00;
+  text-decoration: none;
+}
+
+.light {
+  background: linear-gradient(136.85deg, #aaddaa 27.26%, greenyellow 96.03%);
+}
+
+.light .container {
+  background: #eeffee;
+  color: #001100;
+}
+
+.light .tema button {
+  background: linear-gradient(136.85deg, #aaddaa 27.26%, greenyellow 96.03%);
+  box-shadow: 2px 2px 2px #004400;
+  color: #001100;
+}
+
+.light .projetos {
+  background: linear-gradient(136.85deg, #aaddaa 27.26%, greenyellow 96.03%);
+  box-shadow: 6px 6px 6px #001100;
+}
+
+.light .projetos-titulo {
+  font-weight: 900;
+  font-size: 20px;
+  color: #800000;
+}
+
+.light .projetos-item {
+  font-weight: 800;
+  font-size: 15px;
+  color: #001100;
+}
